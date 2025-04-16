@@ -1,0 +1,85 @@
+/* Estilos para a página index.html */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+
+}
+
+#main-content {
+    background-image: url('./Imagens/10719480-conceito-de-ilustracao-de-pesquisador-de-titulo-em-fundo-branco-vetor.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+
+    color: white;
+}
+
+#h2diferente {
+    text-align: left;
+    color: black;
+
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para a página formulario.html */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+/* Estilos para os botões */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.8;
+}
+
+a {
+    background-color:#007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+    margin: 500px;
+}

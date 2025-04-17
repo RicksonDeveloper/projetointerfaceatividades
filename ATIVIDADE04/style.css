@@ -1,0 +1,287 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#corindex {
+    background-color: #ffffff;
+}
+
+#corpagina1 {
+    background-color: #333;
+}
+
+#corpagina2 {
+    background-color: #44db58;
+}
+
+#corpagina3 {
+
+    background-color: rgb(255, 204, 37);
+}
+
+#corpagina4 {
+    background-color: #e5ff00a2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1a501f;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+}
+
+.noticia,
+.destaque {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    color: white;
+}
+
+section li {
+    color: black;
+}
+
+#centralizarimagem {
+    justify-content: center;
+}
+
+section p {
+    color: black;
+}
+
+#preto {
+    color: black;
+}
+
+#centralizarimg {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #f0f4f1;
+    color: #333;
+    padding: 40px 20px;
+}
+
+#headerpagina2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2d583c;
+}
+
+.card-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.alinhamentotag {
+    text-align: left;
+}
+
+.tips {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tip {
+    background: #fff;
+    border-left: 6px solid #6a9c84;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tip h2 {
+    color: #3a6249;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.tip p {
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+a {
+    color: #3a6249;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.recipes {
+    max-width: 900px;
+    margin: 0 auto;
+    color: black;
+  }
+
+  .recipe {
+    background: #fff;
+    border-left: 6px solid #d6a571;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+
+  .recipe h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #8a5a3d;
+    margin-bottom: 10px;
+  }
+
+  .recipe ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .recipe li {
+    margin-bottom: 6px;
+    color: black;
+  }
+
+  .recipe p {
+    margin-top: 10px;
+  }
+
+  a {
+    color: #6a473e;
+    text-decoration: none;
+  }
+
+  

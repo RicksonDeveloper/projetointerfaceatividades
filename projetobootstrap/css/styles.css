@@ -1,0 +1,36 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-blue {
+  background-color: #1e40af;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #93c5fd !important;
+}
+
+main h1,
+h2,
+h3 {
+  color: #1e40af;
+}
+
+footer {
+  background-color: #1e40af;
+}
+
+footer a {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #93c5fd;
+}
